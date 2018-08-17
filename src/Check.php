@@ -14,6 +14,11 @@
 
         public function __invoke()
         {
+            return static::check();
+        }
+
+        public static function check()
+        {
             return file_exists(self::DEVEL_CONFIG);
         }
     }
