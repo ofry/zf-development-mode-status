@@ -1,0 +1,26 @@
+{
+    "name": "ofry/zf-development-mode-status",
+    "description": "Zend Framework development mode status check on runtime",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf",
+        "zendframework",
+        "framework"
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "authors": [
+        {
+            "name": "ofry",
+            "email": "tim4job@bmail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "Zend\\DevelopmentMode\\": "src/"
+        }
+    } 
+}
